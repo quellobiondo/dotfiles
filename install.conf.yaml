@@ -1,3 +1,6 @@
-- clean: []
-- link: {}
-- shell: []
+- clean: ['~']
+- link:
+  ~/.tmux.conf:
+  ~/.vimrc:
+- shell:
+  - git submodule sync --recursive
