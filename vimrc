@@ -97,15 +97,7 @@ set listchars=tab:▸\ ,eol:¬
 map <leader>l :set list!<CR> " Toggle tabs and EOL
 
 " Color scheme (terminal)
-set t_Co=256
-set background=dark
-let g:solarized_termcolors=256
-let g:solarized_termtrans=1
-" " put
-" https://raw.github.com/altercation/vim-colors-solarized/master/colors/solarized.vim
-" " in ~/.vim/colors/ and uncomment:
-" " colorscheme solarized
-
+colorscheme nord
 
 " Enable mouse support. You should avoid relying on this too much, but it can
 " sometimes be convenient.

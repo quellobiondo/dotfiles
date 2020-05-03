@@ -10,6 +10,8 @@
       path: tmux.conf
     ~/.vimrc:
       path: vimrc
+    ~/.vim:
+      path: vim
 - shell:
   - git submodule sync --recursive
   - git submodule update
