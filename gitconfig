@@ -1,6 +1,0 @@
-[core]
-	editor = vim
-[user]
-	name = quellobiondo
-[include]
-  path = ~/.gitconfig.local
