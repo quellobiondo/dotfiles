@@ -2,3 +2,11 @@
 	path = dotbot
 	url = https://github.com/anishathalye/dotbot
 	ignore = dirty
+[submodule "tmux/themes/nord"]
+	path = tmux/themes/nord
+	url = https://github.com/arcticicestudio/nord-tmux.git
+  ignore = dirty
+[submodule "tmux/plugins/tpm"]
+	path = tmux/plugins/tpm
+	url = https://github.com/tmux-plugins/tpm.git
+  ignore = dirty
