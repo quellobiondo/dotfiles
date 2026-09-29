@@ -14,4 +14,4 @@
       path: vim
 - shell:
   - git submodule sync --recursive
-  - git submodule update
+  - git submodule update --init --recursive
